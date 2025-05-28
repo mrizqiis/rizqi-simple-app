@@ -25,7 +25,7 @@ jobs:
        id: docker_meta
        uses: docker/metadata-action@v5
        with:
-         images: ronalyulyanto/simple-app-ci
+         images: mrizqiis/simple-app-ci
          flavor: |
            latest=false
          tags: |
